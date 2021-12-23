@@ -1,0 +1,217 @@
+body{
+	background: url(pictures/pattern-strip-corners.png);
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+.wrapper{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1500px;
+	margin-bottom: 50px;
+}
+.header{
+	margin-top: 10px;
+	position: fixed;
+	background: url(pictures/хеад.png);
+	border-radius: 10px;
+	width: 1500px;
+	height: 300px;
+}
+.menu{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1498px;
+	height: 70px;
+	background-color: rgba(235, 209, 209, 0.5);
+	margin-top: 228px;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border: 1px solid #736d6d;
+	box-shadow: 3px 3px 5px 0px #b89595;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding: 0px 55px 0px 10px;
+}
+
+.menu ul li a{
+	font: 30px "Century Gothic";
+	color: #020f5f;
+	text-decoration: none;	
+}
+
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+.about{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border: 1px solid #b89595;
+	margin-top: 40px;
+	font-size: 35px;
+	text-align:center;
+
+}
+.mainbox {
+background-color: white;
+border-radius: none;
+}
+
+h2{
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font: 35px;
+	color: #020f5f;
+}
+.technology ul img{
+	margin: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border: 2px solid #736d6d;
+}
+tr th img{
+	margin: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border: 2px solid #736d6d;
+}
+	
+.description{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border: 1px solid #b89595;
+	text-align:center;
+	font: 25px "Century Gothic";
+}
+.technology{
+	background-color: rgba(255, 255, 255, 0.8);
+	font: 25px "Century Gothic";
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #736d6d;
+}
+
+caption {
+	 border: 0 solid;
+	 width: 1498px;
+	 color: #020f5f;
+	 font: 70px "Century Gothic";
+	 margin: 0 auto;
+	
+ }
+ table {
+	background-color: rgba(255, 255, 255, 0.8);
+	 table-layout: fixed;
+	 width: 1500px;
+	 border: 3px solid #b89595;
+	 border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+ }
+ th {
+	 letter-spacing: 2px;
+	 font: 35px "Century Gothic";
+	 color: #020f5f;
+	 font-weight: 700;
+ }
+ 
+ td {
+	 letter-spacing: 1px;
+	 font-size:30px;
+	 padding: 10px;
+ }
+ 
+ tbody td {
+	 text-align: center;
+ }
+.technology ul li {
+	margin-left: 120px;
+}
+.partner {
+	background-color: rgba(255, 255, 255, 0.8);
+	font: 25px "Century Gothic";
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 3px solid #736d6d;
+	color: #020f5f;
+	text-align: center;
+	margin-top: 25px;
+}
+.height div p {
+	letter-spacing: 2px;
+	 font: 35px "Century Gothic";
+	 color: #020f5f;
+	 font-weight: 700;
+	 text-align: center;
+}
+.partner a {
+	text-decoration: none;
+	color: green;
+	
+}
+.partner:hover {
+	background-color: rgba(247, 235, 235, 0.5);
+	font: 25px "Century Gothic";
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 3px solid #731c1c;
+}
+
+table tbody tr td img {
+	margin-top: 30px;
+}
+.gradient-text {
+  font-family: "Century Gothic";
+  font-size: 30px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, red, fuchsia);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.magazins {
+	border: none;
+	margin-top: 40px;
+	font-size: 35px;
+	text-align:center;
+}
+footer {
+	width: 1498px;
+	height: 70px;
+	border: none;
+	margin-top: 40px;
+	text-align:center;
+}
+
+button {
+	background-color: rgba(247, 235, 235, 0.5);
+	font-family: "Century Gothic";
+	width: 200px;
+	height: 70px;
+	text-decoration: none;
+	color: #020f5f;
+	font-weight: 700;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 3px solid #736d6d;
+}
+button:hover {
+    background-color: white;
+	border: 3px solid #731c1c;	
+}
+a {
+	text-decoration: none;
+}

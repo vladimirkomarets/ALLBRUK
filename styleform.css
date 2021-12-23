@@ -1,0 +1,77 @@
+
+body {
+   background: url(pictures/pattern-strip-corners.png);
+}
+.postcard {
+   max-width: 550px;
+   margin: 150px auto 0;
+   padding: 20px;
+   background: #fffdee;
+   border: 10px solid ;
+   border-radius: 20px;
+   font-family: 'Century Gothic';
+   color: #605756;
+}
+.form-row {
+   margin-bottom: 15px;
+}
+.form-row input[type="text"], .form-row input[type="email"], .form-row textarea {
+   width: 95%;
+   padding: 0 10px;
+   line-height: 35px;
+   border-width: 0;
+   outline: none;
+   background-size: 8px 35px;
+   font-family: 'Century Gothic';
+}
+.form-row textarea {
+   background-attachment: local;
+   background-repeat: repeat;
+   resize: none;
+}
+.form-row input[type="submit"] {
+   padding: 10px 20px;
+   margin-top: 10px;
+   background: #736d6d;
+   border-width: 0;
+   cursor: pointer;
+   outline: none;
+   font-family: 'Playfair Display';
+   font-size: 13px;
+   letter-spacing: 1px;
+   color: #fffdee;
+   text-transform: uppercase;
+   transition: 1s cubic-bezier(.165, .84, .44, 1);
+}
+.form-row input[type=submit]:hover {
+   background: #731c1c;
+}
+footer {
+	margin: auto;
+	border: none;
+	text-align:center;
+}
+
+button {
+	background-color: rgba(247, 235, 235, 0.5);
+	font-family: "Century Gothic";
+	width: 610px;
+	height: 70px;
+	text-decoration: none;
+	color: #020f5f;
+	font-weight: 700;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 10px solid #736d6d;
+}
+button:hover {
+    background-color: white;
+	border: 10px solid #731c1c;	
+}
+.content {
+	 color: #020f5f;
+	 font: 30px "Century Gothic";
+	 text-align: center;
+	 padding: 50px 0px 0px 0px;
+}
